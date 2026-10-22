@@ -1,33 +1,19 @@
 # Allegro Daily Analytics
 
-**Dokumentacja aplikacji · wersja 1.0.0**
+**Version:** 1.0.0  
+**Owner:** Salvexis OÜ  
+**Platform:** Allegro REST API
 
-Allegro Daily Analytics to projekt wewnętrznego raportowania dla własnego konta sprzedawcy Allegro. Jego celem jest przygotowywanie dziennych zestawień zamówień, sprzedaży, opłat oraz rozliczeń na podstawie danych udostępnionych przez Allegro REST API.
+Allegro Daily Analytics is an internal application for collecting orders, sales, billing, payments and available fulfillment data from Salvexis OÜ's own Allegro seller account for daily analytics and reporting.
 
-## Zakres
+## Current Documentation
 
-Pierwszy etap integracji przewiduje odczyt danych zamówień, ofert, płatności i rozliczeń. Dalszy plan obejmuje dane One Fulfillment, przesyłki oraz odczyt wiadomości i spraw kupujących, w zakresie dostępnych zasobów API i udzielonych uprawnień.
+The public documentation is now maintained in the dedicated `allegro-daily-analytics` repository:
 
-Automatyczne wysyłanie wiadomości, zmiany ofert i zwroty środków nie należą do pierwszego etapu.
+[Read the Allegro Daily Analytics documentation](https://github.com/trs0793/allegro-daily-analytics/blob/main/docs/allegro-daily-analytics.md)
 
-## Autoryzacja
+The canonical page describes data sources, the reporting workflow, OAuth 2.0 Device Flow, planned AI-assisted customer support and security practices.
 
-Dostęp wymaga autoryzacji właściciela konta przez OAuth 2.0 Allegro. Żądania API mają używać indywidualnego nagłówka User-Agent wygenerowanego dla tej aplikacji. Ta strona jest przeznaczona jako publiczny opis jej celu i zakresu.
+This page remains available for previously shared documentation links. It contains no application credentials, customer records or internal financial data.
 
-## Dane
-
-Strona dokumentacji zawiera wyłącznie opis aplikacji. Nie zawiera danych kupujących, zamówień, wyników sprzedaży, kluczy aplikacji ani tokenów. Kod oraz konfiguracja projektu są utrzymywane oddzielnie.
-
-## Status
-
-**Konfiguracja początkowa.** Trwa przygotowanie integracji. Autoryzacja konta, pobieranie danych i regularne raportowanie wymagają dalszego wdrożenia oraz weryfikacji.
-
-## Opiekun projektu
-
-[trs0793 na GitHub](https://github.com/trs0793)
-
-## Oficjalne materiały Allegro
-
-- [Podstawy API i User-Agent](https://developer.allegro.pl/tutorials/informacje-podstawowe-b21569boAI1)
-- [OAuth](https://developer.allegro.pl/tutorials/uwierzytelnianie-i-autoryzacja-zlq9e75GdIR)
-- [Dokumentacja API](https://developer.allegro.pl/documentation)
+**Status:** Internal application under active development.
